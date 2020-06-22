@@ -1,0 +1,17 @@
+Character classes :
+
+1. \d matches all the digits in the string.
+
+capture groups :
+ brackets to capture the scope
+
+1. Meta characters <{[(\^-=$!|]})?*+.>
+   Meta characters needs to be escaped using
+   enclose a set of metacharacters between \Q and \E to be mathed in regex.
+   . matches every character exception end of sentence.
+
+2. Regex character classes:
+   \d - matches any digits
+
+
+   3. Quantifiers:
